@@ -20,7 +20,8 @@ The contract is implementing the mortal design pattern. It gives users the abili
 Uses a boolean value called stopped to determine that certain functions are restricted. The variable is used in the stopInEmergency function modifier and stops any state change if true. Only the owner of the contract can call this.
 
 # Test coverage
-The tests files marketplace_stores.test.js and marketplace.test.js are found in the test folder in the project root. The tests are run by running truffle test.
+The tests are found in the test folder.
+To run the tests use `truffle test`.
 
 The tests run checks to see that the basic funcationality works.
 
