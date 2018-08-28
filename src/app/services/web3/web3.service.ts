@@ -10,7 +10,7 @@ declare let require: any;
 const Web3 = require('web3');
 
 const contract = require('truffle-contract');
-const contract_artifacts = require('../../../../../build/contracts/CryptoPark.json');
+const contract_artifacts = require('../../../../build/contracts/CryptoPark.json');
 
 @Injectable({
   providedIn: 'root'

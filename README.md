@@ -19,7 +19,7 @@ The following is required to run the project
 
 ## Setup
 1) Clone repository and browse to the directory with the terminal.
-2) Inside the `client` run `npm install`.
+2) Run `npm install`.
 3) Start your local blockchain by running `ganache-cli`.
 4) Copy the mnemonic phrase generated you got, open up MetaMask and click on restore from seed phrase. Paste the seed phrase and enter a password. Once you are logged in, in the network settings of MetaMask choose `localhost:8545`.
 5) Open up a new terminal window and browse the project directory. Go to the contracts directory and run `truffle compile && truffle migrate`.
@@ -42,4 +42,4 @@ To run the tests, browse the project directory and run the command truffle test,
 ## Further help
 If errors are stumbled upon while visiting the site, try truffle migrate --reset which will redo the migrating part.
 
-If you encounter errors in MetaMask, please navigate to Settings and choose RESET ACCOUNT. Reload the site and try again!
+If you encounter errors in MetaMask, please navigate to Settings and choose RESET ACCOUNT. Add the mneumonic phrase again. Reload the site and try again!
